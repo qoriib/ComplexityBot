@@ -92,4 +92,6 @@ Bot ini dikembangkan sebagai bagian dari tugas mata kuliah Strategi Algoritma - 
 
 Anggota Tim:
 
-1. Nashrullah Fathul Qoriib - 122140162
+1. Nashrullah Fathul Qoriib (122140162)
+2. Eka Putri Azhari Ritonga (123140028)
+3. Atalie Salsabila (123140027)
