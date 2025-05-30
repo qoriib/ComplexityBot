@@ -76,7 +76,7 @@ Jika ingin menjalankan beberapa bot sekaligus, gunakan skrip shell atau batch ya
 Untuk Linux/macOS: `run-bots.sh`
 
 ```bash
-chmod +x run-bots.sh
+chmod +x scripts/run-bots.sh
 ./scripts/run-bots.sh
 ```
 
