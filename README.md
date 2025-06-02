@@ -12,12 +12,6 @@
 | **Avoid Teleport**           | Hindari semua posisi teleport untuk mencegah perpindahan tidak terkontrol               |
 | **Safe Random Move**         | Jika tidak ada langkah optimal, lakukan gerakan acak yang aman                          |
 
-## Struktur File
-
-- `main.py` – Script utama untuk menjalankan bot.
-- `bots/greedy_bot.py` – Berisi logika pengambilan keputusan dan strategi pergerakan.
-- `utils/` – Folder yang menyimpan komponen dan utilitas tambahan seperti model dan API.
-
 ## Strategi Algoritma
 
 ### 1. Pulang Jika Inventori Penuh
@@ -50,7 +44,7 @@ Sebelum menjalankan bot, pastikan kamu sudah menginstall dependensi yang dibutuh
 pip install -r requirements.txt
 ```
 
-### 1. Jalankan dari Terminal
+### 2. Jalankan dari Terminal
 
 Jalankan dengan nilai default (tidak pakai argumen):
 
@@ -67,23 +61,6 @@ python main.py \
   --name=stima \
   --password=123456 \
   --team=etimo
-```
-
-### 2. Menjalankan Banyak Bot dengan Script
-
-Jika ingin menjalankan beberapa bot sekaligus, gunakan skrip shell atau batch yang sudah disediakan.
-
-Untuk Linux/macOS: `run-bots.sh`
-
-```bash
-chmod +x scripts/run-bots.sh
-./scripts/run-bots.sh
-```
-
-Untuk Windows: `run-bots.bat`
-
-```bash
-scripts/run-bots.bat
 ```
 
 ## Tim
